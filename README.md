@@ -24,4 +24,4 @@ To get image links, upload to [Imgur](https://imgur.com) or any other image host
 
 Once you fill in all of these, you can turn the links into web panels, and you can use them as usual!
 
-If you don't know what to do, go [here](https://ipt0t15yybc.typeform.com/to/Yz0az0d8) for a step-by-step form. You can just copy your new link.
+If you don't know what to do, go [here](https://ipt0t15yybc.typeform.com/to/BCAN1iQD) for a step-by-step form. You can just copy your new link.
