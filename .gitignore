@@ -1,0 +1,7 @@
+.firebase/*
+firebase.json
+database.rules.json
+firebase-debug.log
+package.json
+template.mdp
+public/i/personal/*

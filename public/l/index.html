@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- title -->
+        <title>Link</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="../i/icon.png"/>
+    </head>
+    <body>
+        <script>
+            // url params
+            const queryString = window.location.search;
+            console.log(queryString); // ?params=___ etc
+
+            const urlParams = new URLSearchParams(queryString);
+            
+            // get favicon 
+            const favicon = urlParams.get('icon')
+            console.log(favicon);
+
+            // get redirect
+            const redirect = urlParams.get('url')
+            console.log(redirect);
+
+            // get title
+            const title = urlParams.get('title')
+            console.log(title);
+
+            // redirect
+            setTimeout(function(){
+            window.location.href = redirect;
+            }, Number(delay));
+
+            // favicon
+            const docFavicon = document.querySelector('[rel=icon]');
+            docFavicon.href = favicon;
+
+            // set title
+            document.title = title;
+        </script>
+    </body>
+</html>
